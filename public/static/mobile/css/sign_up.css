@@ -1,0 +1,12 @@
+.am-form-group .smscode{
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+.am-cf p{
+    margin:0;
+    float: left;
+}
+.am-cf p:last-child{
+    float: right;
+}

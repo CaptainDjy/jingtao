@@ -1,0 +1,67 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": [
+        "yii2",
+        "framework",
+        "advanced",
+        "project template"
+    ],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-httpclient": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "yiisoft/yii2-redis": "^2.0",
+        "dh/adminlte": "~2.3.0",
+        "fortawesome/font-awesome": "~4.7.0",
+        "npm-asset/kindeditor": "~4.1.0",
+        "kartik-v/yii2-widget-datetimepicker": "~1.4.0",
+        "bower-asset/bootstrap-daterangepicker": "2.1.25",
+        "dh/yii2-clockpicker": "~0.1.0",
+        "workerman/gateway-worker-for-win": "^3.0",
+        "workerman/gatewayclient": "~3.0.0",
+        "chenkby/yii2-region": "dev-master",
+        "guzzlehttp/guzzle": "~6.0",
+        "kartik-v/yii2-widget-select2": "^2.1",
+        "yiisoft/yii2-imagine": "^2.1",
+        "phpoffice/phpexcel": "*",
+        "endroid/qr-code": "^2.5",
+        "intervention/image": "^2.4",
+        "yansongda/pay": "^2.4"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "github-oauth": {
+            "github.com": "830f9234bca7a462d5600e3b267cfddbd4b9adf7"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

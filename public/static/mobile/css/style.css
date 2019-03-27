@@ -1,0 +1,2781 @@
+/*登录页*/
+.login-top h1 {
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+}
+
+.login-top h1 span {
+    margin-left: 18px;
+}
+
+.login-logo img {
+    width: 80px;
+}
+.login-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background: url("/static/mobile/img/icon_01.png") no-repeat center;
+    background-size:120px 120px;
+    width: 100%;
+}
+
+.login-logo img {
+    width: 80px;
+}
+
+.input-box {
+    padding: 0 20px;
+}
+
+.input-box div {
+    margin-bottom: 10px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+
+.input-box div label {
+    position: absolute;
+    left: 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+.input-box div label img {
+    width: 50px;
+}
+
+.input-box div label select {
+    -webkit-appearance: menulist;
+}
+
+.input-box div input {
+    height: 40px;
+    width: 100%;
+    max-width:200px;
+}
+
+.input-box .last-line .last-line-l {
+    color: #aeaeb0;
+    float: left;
+}
+
+.input-box .last-line .last-line-l span:first-child {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #DEDEDE;
+    text-align: center;
+    line-height: 14px;
+    color: #25b736;
+    font-weight: bolder;
+    margin-right: 10px;
+    float: left;
+    margin-top: 13px;
+}
+
+.input-box .last-line .last-line-l span:last-child {
+    color: #3d72b3;
+}
+
+.input-box .last-line .last-line-r {
+    float: right;
+    color: #aeaeb0;
+}
+
+.input-box .last-line .last-line-r span {
+    color: #3d72b3;
+}
+
+.input-box div .get-verify {
+    position: absolute;
+    right: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    bottom: 5px;
+    color: #fff;
+    background: #3d72b3;
+}
+
+.login-btn {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.login-btn button:nth-child(2) {
+    margin: 20px;
+}
+
+.login-options {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-option {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.login-option:last-child {
+    margin-right: 0;
+}
+
+.login-option i {
+    font-size: 40px;
+}
+
+.login-option .icon-qq {
+    color: #58c7ff;
+}
+
+.login-option .icon-weixin {
+    color: #94ca40;
+}
+
+/*国际区号选择*/
+.input-box .nation-select {
+    position: absolute;
+    left: 0;
+}
+
+.nation-select div {
+    padding: 0 5px;
+}
+
+.nation-select div.focus {
+    border: 1px solid #00c0ef;
+    border-radius: 2px;
+}
+
+.nation-select div i {
+    font-size: 12px;
+}
+
+.nation-select div i:before {
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.nation-select div i.click:before {
+    transform: rotate(-90deg);
+}
+
+.nation-select dl::-webkit-scrollbar {
+    width: 0;
+    height: 0
+}
+
+.nation-select dl {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    z-index: 10;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    padding: 5px;
+    background: white;
+    border-bottom: none;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.nation-select dl dd {
+    height: 40px;
+}
+
+.nation-select img {
+    height: 30px;
+}
+
+/*首页*/
+.home-banner img {
+    width: 100%;
+}
+
+.category-menu {
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.category-menu .category-item {
+    width: 30%;
+    margin-left: 2.5%;
+    box-sizing: border-box;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    float: left;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.category-item i {
+    font-size: 90px;
+}
+
+.category-item p {
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.recommended {
+    padding: 0 10px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.home-title {
+    height: 40px;
+    line-height: 39px;
+}
+
+.home-title span:first-child {
+    font-size: 16px;
+}
+
+.home-title span:last-child {
+    font-size: 12px;
+    color: #666;
+    float: right;
+}
+
+.home-title span i {
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+.recommended ul {
+    overflow: hidden;
+}
+
+.recommended ul li {
+    float: left;
+    width: 48%;
+}
+
+.recommended ul li:nth-child(2n-1) {
+    margin-right: 4%;
+}
+
+.recommended ul li img {
+    width: 100%;
+}
+
+.recommended ul li h1 {
+    font-size: 16px;
+    margin: 5px 10px;
+}
+
+.recommended ul li p {
+    color: #666;
+    font-size: 12px;
+    margin: 5px 10px;
+}
+
+.best-selling-list {
+    padding: 0 10px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.carbon-market {
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.market-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.time-select {
+    border-bottom: 1px solid #dedede;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.time-select .time-btn {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.time-btn button {
+    margin-left: 2px;
+    background: #f7f7f7;
+    color: #666;
+    padding: 2px 7px;
+    font-size: 12px;
+}
+
+.time-btn .selected {
+    background: #e7f0f9;
+    color: #333;
+    font-weight: 700;
+}
+
+.time-select .time-show {
+    font-size: 12px;
+    text-align: center;
+}
+
+.time-select .time-show span {
+    display: inline-block;
+    border: 1px solid #d1d1d1;
+    padding: 1px 7px;
+    margin: 0 8px;
+}
+
+.recommended .xy-goodModel p.xy-goodCon {
+    margin-bottom: 10px;
+}
+
+/*TODO*/
+@media all and (min-width: 768px) {
+    .recommended ul li {
+        text-align: center;
+    }
+}
+
+/*交易页*/
+.trade-head {
+    background: #1b82d2;
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.trade-head > div p {
+    text-align: center;
+    color: white;
+}
+
+.trade-head > div p:first-child {
+    font-size: 16px;
+}
+
+.trade-head > div p:last-child {
+    font-size: 20px;
+}
+
+.trade-chart-box {
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.chart-box-top {
+    display: table;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.chart-box-top > dt {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.chart-box-top > dt:nth-child(1) img {
+    width: 50px;
+}
+
+.chart-box-top > dt:nth-child(2) {
+    font-size: 30px;
+    color: #538c00;
+    font-weight: bolder;
+}
+
+.chart-box-top > dt:nth-child(3) {
+    color: #649718;
+    font-size: 12px;
+    border-right: 1px solid #D5D5D5;
+}
+
+.chart-box-top > dt:nth-child(4) {
+    padding-left: 20px;
+}
+
+.chart-box-top > dt:nth-child(4) div {
+    float: left;
+    margin-right: 20px;
+}
+
+.chart-box-top > dt:nth-child(4) div p:first-child {
+    color: #aaa;
+}
+
+.chart-box-top > dt:nth-child(4) div p:last-child {
+    color: #999;
+    font-weight: bold;
+}
+
+.trade-chart {
+    text-align: center;
+}
+
+.trade-status {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.trade-status p {
+    float: left;
+    width: 25%;
+    font-size: 18px;
+    color: #666;
+}
+
+.trade-status p span {
+    color: #1b82d2;
+    font-size: 22px;
+}
+
+.trade-status p:nth-child(2) span {
+    color: #ef6062;
+}
+
+.trade-status p:nth-child(3), .trade-status p:nth-child(2) {
+    text-align: center;
+}
+
+.trade-status p:nth-child(4) {
+    text-align: right;
+}
+
+.buy-sell-commission {
+    padding: 0 20px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.buy-sell-commission > div {
+    float: left;
+    width: 33.33%;
+}
+
+.b-s-c-title {
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.b-s-c-title i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.commission-box .b-s-c-title {
+    color: #1b82d2;
+}
+
+.buy-sell-body {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.buy-sell-body > div {
+    margin: 20px 0;
+}
+
+.buy-sell-body > div:nth-child(2) {
+    color: #666;
+    word-break: keep-all;
+}
+
+.buy-sell-body > div:nth-child(2) span {
+    font-size: 16px;
+}
+
+.buy-sell-body .selected:before {
+    content: '√';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    border-bottom-right-radius: 5px;
+    line-height: 8px;
+}
+
+.buy-sell-body > div:nth-child(4) button {
+    float: left;
+    width: 30%;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.buy-sell-body > div:nth-child(4) button:nth-child(2) {
+    margin: 0 5%;
+}
+
+.buy-sell-body > div:nth-child(5) {
+    overflow: hidden;
+}
+
+.buy-sell-body > div:nth-child(5) p:nth-child(1) {
+    float: left;
+}
+
+.buy-sell-body > div:nth-child(5) p:nth-child(2) {
+    float: right;
+}
+
+.buy-sell-body > div:nth-child(5) p {
+    color: #999;
+}
+
+.buy-sell-body > div:nth-child(5) p span {
+    color: #1b82d2;
+}
+
+.buy-sell-body > button {
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 10px;
+    padding: 14px 0;
+    font-size: 16px;
+}
+
+.buy-box .b-s-c-title {
+    color: #ef6062;
+}
+
+.buy-box .buy-sell-body > div:nth-child(2) span {
+    color: #ef6062;
+}
+
+.buy-box .buy-sell-body .selected {
+    color: #ef6062;
+    border: 1px solid #ef6062;
+    position: relative;
+}
+
+.buy-box .selected:before {
+    border-bottom: 10px solid #ef6062;
+    border-right: 10px solid #ef6062;
+}
+
+.buy-box .buy-sell-body > button {
+    background: #ef6062;
+}
+
+.sell-box .b-s-c-title {
+    color: #7dbc54;
+}
+
+.sell-box .selected:before {
+    border-bottom: 10px solid #7dbc54;
+    border-right: 10px solid #7dbc54;
+}
+
+.sell-box .buy-sell-body .selected {
+    color: #7dbc54;
+    border: 1px solid #7dbc54;
+    position: relative;
+}
+
+.sell-box .buy-sell-body > div:nth-child(2) span {
+    color: #7dbc54;
+}
+
+.buy-sell-body > div:nth-child(4) {
+    overflow: hidden;
+}
+
+.sell-box .buy-sell-body > button {
+    background: #7dbc54;
+}
+
+.add-plus-num {
+    border: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.add-plus-num span {
+    float: left;
+    text-align: center;
+    font-size: 24px;
+}
+
+.add-plus-num span:not(:nth-child(2)) {
+    width: 20%;
+}
+
+.add-plus-num span:nth-child(2) {
+    width: 60%;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #CCCCCC;
+}
+
+.commission-box dl {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.commission-box dl dd {
+    line-height: 2.5em;
+    overflow: hidden;
+}
+
+.commission-box dl dd p {
+    color: #999;
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+
+.commission-buy dd p:first-child {
+    color: #ef6062;
+}
+
+.commission-sell dd p:first-child {
+    color: #7dbc54;
+}
+
+dl.commission-sell {
+    margin-top: 20px;
+}
+
+/*我的挂单 我的成交*/
+.my-sell-deal {
+    padding: 40px 20px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.my-title {
+    background: #f0f0f0;
+}
+
+.my-title, .detail-list-table dt, .detail-list-table dd {
+    overflow: hidden;
+}
+
+.my-title div {
+    float: left;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.my-title p {
+    float: right;
+    color: #FF7F00;
+    line-height: 40px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.my-title .selected {
+    border-bottom: 2px solid #1b82d2;
+    color: #1b82d2;
+}
+
+.detail-list-table dt {
+    padding: 15px 0 10px;
+    border-bottom: 1px solid #DEDEDE;
+    font-size: 16px;
+}
+
+.detail-list-table p {
+    float: left;
+    text-align: center;
+}
+
+.detail-list-table p:first-child {
+    width: 30%;
+}
+
+.detail-list-table p:not(:first-child) {
+    width: 14%;
+}
+
+.detail-list-table dd p {
+    color: #666;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.detail-list-table dd p:last-child a {
+    color: #ef6062;
+}
+
+.detail-list-table .in {
+    color: #7dbc54;
+}
+
+.detail-list-table .out {
+    color: #ef6062;
+}
+
+/*分页*/
+.nav-page {
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav-page div {
+    border-radius: 3px;
+    height: 30px;
+    padding: 0 5px;
+    line-height: 30px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.nav-page input {
+    width: 40px;
+    text-align: center;
+}
+
+.nav-page div {
+    background: #f0f0f0;
+}
+
+.nav-page div.activeNav, .nav-page div:last-child {
+    background: #1b82d2;
+    color: white;
+}
+
+.nav-page div:nth-child(5) {
+    border: 1px solid #dedede;
+}
+
+/*最新成交*/
+.newest-deal {
+    padding-bottom: 40px;
+}
+
+.newest-deal p:first-child {
+    width: 36%;
+}
+
+.newest-deal p:not(:first-child) {
+    width: 16%;
+}
+
+/*充值页面*/
+.recharge-num, .pay-type {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recharge-num h1, .pay-type h1 {
+    font-size: 18px;
+    color: #666;
+    height: 50px;
+    line-height: 50px;
+}
+
+.recharge-num div, .pay-type div {
+    text-align: center
+}
+
+.recharge-num div p, .pay-type div p {
+    margin: 20px 0;
+    position: relative;
+}
+
+.recharge-num div p button, .pay-type div p button {
+    border: 1px solid #dedede;
+    color: #666666;
+    width: 115px;
+    position: relative;
+    height: 40px;
+}
+
+.recharge-num div p button {
+    padding: 10px 0;
+}
+
+.recharge-num div p button:first-child, .pay-type div p button:first-child {
+    margin-right: 8%;
+}
+
+.recharge-num .selected {
+    background: #3db368;
+    color: white;
+}
+
+.recharge-num div p input {
+    width: 100%;
+    border: 1px solid #dedede;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+}
+
+.recharge-num div p input + span {
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    color: #666;
+    background: #f0f0f0;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    line-height: 38px;
+}
+
+.recharge-num div p:last-child {
+    color: #b33d3d;
+}
+
+.pay-type div p button img {
+    width: 100%;
+}
+
+.pay-type > p {
+    color: #aeaeb0;
+}
+
+.pay-type > p span:first-child {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #DEDEDE;
+    text-align: center;
+    line-height: 14px;
+    color: #25b736;
+    font-weight: bolder;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.pay-type > p span:last-child {
+    color: #3d72b3;
+    cursor: pointer;
+}
+
+/**/
+
+.input-box .icon-wangjimima-copy {
+    position: absolute;
+    right: 0;
+    color: #008fe0;
+}
+
+.hide {
+    display: none;
+}
+
+pre {
+    margin: 0 !important;
+    display: inline-block;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+    background: none;
+}
+
+#result {
+    margin-bottom: 100px;
+}
+
+.buy-sell-commission .add-plus-num span {
+    width: 50px;
+}
+
+.buy-sell-body input {
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    border: solid 1px #d5d5d5;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+}
+
+.my-sell-deal .detail-list-table {
+    display: none;
+}
+
+.my-sell-deal .sell-list-table {
+    display: block;
+}
+
+/*swiper*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #f0f0f0;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* trade box*/
+.container {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+    min-width: 300px;
+}
+
+.kline {
+    padding: 30px 0 15px 0;
+}
+
+.kline .kline-head {
+    overflow: hidden;
+}
+
+.kline .kline-head dt {
+    float: left;
+    border-right: 1px solid #EEE;
+    padding: 0 20px 10px 0;
+}
+
+.kline .kline-head dt img {
+    float: left;
+    display: block;
+    margin-right: 20px;
+}
+
+.kline .kline-head dt .price {
+    float: left;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.kline .kline-head dt .rise {
+    float: left;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.kline .kline-head dt .rise cite {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+}
+
+.kline .kline-head dd {
+    float: left;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.kline .kline-head dd span {
+    display: block;
+    height: 15px;
+    line-height: 15px;
+    color: #AAA;
+}
+
+.kline .kline-head dd cite {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.kline .kline-main {
+    position: relative;
+    margin-top: 30px;
+}
+
+.kline .kline-main .kline-switch {
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    left: 5px;
+    z-index: 2;
+    height: 35px;
+    overflow: hidden;
+}
+
+.kline .kline-main .kline-switch span {
+    display: block;
+    background: #E7F2F8;
+    padding: 0 5px;
+    float: left;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.kline .kline-main .kline-switch span:first-child {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.kline .kline-main .kline-switch .select {
+    background: #53A0E3;
+    color: #FFF;
+}
+
+.kline .kline-main .kline-chart {
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
+
+/**/
+.kline .kline-main .kline-ma {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 2;
+}
+
+.kline .kline-main .kline-ma .ma05 {
+    color: #1aadce;
+}
+
+.kline .kline-main .kline-ma i {
+    display: block;
+    width: 20px;
+    height: 8px;
+    float: left;
+    margin-top: 1px;
+}
+
+.kline .kline-main .kline-ma .ma05 i {
+    background: #1aadce;
+}
+
+.kline .kline-main .kline-ma b {
+    display: block;
+    height: 10px;
+    line-height: 10px;
+    float: left;
+    font-weight: normal;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.kline .kline-main .kline-ma .ma10 {
+    margin-top: 5px;
+    color: #FF7F00;
+}
+
+.kline .kline-main .kline-ma .ma10 i {
+    background: #FF7F00;
+}
+
+.kline .kline-main .kline-ma .ma30 {
+    margin-top: 5px;
+    color: #910000;
+}
+
+.kline .kline-main .kline-ma .ma30 i {
+    background: #910000;
+}
+
+.klineBox {
+    justify-content: space-between;
+}
+
+.klineBox cite {
+    color: #999;
+}
+
+.klineBox span {
+    text-align: center;
+}
+
+/*.kline .highcharts-range-selector-buttons,.highcharts-input-group{
+    display: none;
+}*/
+.add-plus-num span {
+    cursor: pointer;
+}
+
+.confirmCon {
+    font-size: 14px;
+}
+
+.confirmCon span {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #1b82d2;
+}
+
+.beizhu {
+    margin-top: 20px;
+    color: #999;
+}
+
+.kefu {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 10;
+}
+
+.kefu a {
+    cursor: pointer;
+}
+
+.showIcon a {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 10px;
+    background: #d5d5d5;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+.showIcon a:hover {
+    background: #1b82d2;
+}
+
+/*login*/
+.xy-area {
+    width: 120px;
+    line-height: 40px;
+}
+
+#country img {
+    width: 40px;
+}
+
+.xy-loginInput {
+    width: 100%;
+    position: relative;
+}
+
+.xy-loginInput input {
+    width: 100%;
+    text-align: left;
+}
+
+.xy-loginInput ul {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    background: #fff;
+    z-index: 2;
+    border: solid 1px #f0f0f0;
+    border-top: none;
+    padding: 0 5px;
+    display: none;
+}
+
+.xy-loginInput ul li {
+    border-bottom: solid 1px #f0f0f0;
+    padding-left: 10px;
+    position: relative;
+}
+
+.xy-loginInput ul li span {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.xy-loginInput ul li i {
+    cursor: pointer;
+}
+
+.xy-loginInput ul li:last-child {
+    border-bottom: none;
+}
+
+.xy-loginInput .icon-arrLeft-fill {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.xy-loginInput span.iconDown {
+    transform: rotate(180deg);
+    transition: all 0.1s;
+}
+
+.xy-loginInput ul li.xy-numActive {
+    background: #008fe0;
+    color: #fff;
+}
+
+.xy-loginInput ul li.xy-numActive span {
+    display: block;
+}
+
+.xy-rememberBox {
+    margin-top: 20px;
+}
+
+.box-chart {
+    margin-top: 20px;
+}
+
+.kefuBox {
+    border: solid 1px #d5d5d5;
+    background: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.kefuBox ul li {
+    border-bottom: solid 1px #f5f5f5;
+    margin-bottom: 5px;
+    padding: 5px;
+    transition: all 1s;
+}
+
+.kefuBox ul li:last-child {
+    border: none;
+    margin-bottom: 0;
+}
+
+.kefu img {
+    display: block;
+    width: 80px;
+}
+
+.kefu span {
+    margin-right: 5px;
+}
+
+.weixinTitle {
+    border-bottom: solid 1px #f0f0f0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.weiXinKF {
+    border-bottom: solid 1px #d5d5d5;
+    margin-bottom: 5px;
+}
+
+.weiXinKF li span {
+    color: #62b900;
+}
+
+.QQKF li span {
+    color: #4a86f0;
+}
+
+.showIcon {
+    text-align: right;
+}
+.kefu .kefuBoxShow {
+    display: block;
+    animation: scaleKF 1s;
+    transform-origin: right bottom;
+}
+
+@keyframes scaleKF {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.QQKF a {
+    display: block;
+}
+
+.CBpay {
+    height: 40px;
+    font-size: 16px;
+    color: #666;
+}
+
+.xy-sellTrade {
+    padding: 40px 0;
+}
+
+.nav-page div {
+    cursor: pointer;
+}
+
+/* default img*/
+.xzh-vertical-list .x-item div.index-hotSell, .xzh-vertical-list .x-item img {
+    background: #f0f0f0;
+    font-size: 20px;
+    width: 120px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.xzh-vertical-list .x-item div.marginL {
+    margin-left: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.index-hotSell {
+    background: #f0f0f0;
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    text-align: center;
+}
+
+.index-hotSell span {
+    font-size: 40px;
+    text-align: center;
+    color: #999;
+}
+
+.index-hotKC img, .index-hotKC .index-hotSell {
+    background: #f0f0f0;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.media #aligner #buttons {
+    display: none;
+}
+
+/* new shop */
+.index-navNew {
+    overflow: hidden;
+}
+
+.index-navNew li {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.index-navNew li p {
+    text-align: center;
+}
+
+.index-navNew .index-iconBox {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.index-navNew li:nth-child(1) div {
+    background: #0eaada;
+}
+
+.index-navNew li:nth-child(2) div {
+    background: #c878c8;
+}
+
+.index-navNew li:nth-child(3) div {
+    background: #ffa000;
+}
+
+.index-navNew li:nth-child(4) div {
+    background: #8c5050;
+}
+
+.index-navNew li:nth-child(5) div {
+    background: #ff8c00;
+}
+
+.index-navNew li:nth-child(6) div {
+    background: #3db368;
+}
+
+.index-navNew li:nth-child(7) div {
+    background: #ffa000;
+}
+
+.index-navNew li:nth-child(8) div {
+    background: #0eaada;
+}
+
+.index-navNew li:nth-child(9) div {
+    background: #bb5c86;
+}
+
+.index-navNew li:nth-child(10) div {
+    background: #647864;
+}
+
+.index-navNew {
+    margin: 20px auto;
+}
+
+/*限时折扣*/
+.index-timeYH .swiper-slide, .index-jiriYH .swiper-slide, .index-vipYH .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.index-timeTitle {
+    font-size: 24px;
+    text-align: center;
+}
+
+.index-timeShow {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.index-timeShow span {
+    border: solid 1px #d5d5d5;
+    margin-right: 10px;
+    padding: 5px;
+    margin-left: 10px
+}
+
+.index-timeYH {
+    margin-top: 50px;
+}
+
+.index-buyBtn {
+    margin: 10px auto;
+    font-size: 14px;
+    color: #fff;
+    padding: 3px 5px;
+    background: #cd2525;
+    border-radius: 20px;
+}
+
+.index-vipYH, .index-jiriYH, .index-timeYH {
+    padding: 0 10px;
+}
+
+.index-timeXScon h1 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.index-timeXScon span {
+    line-height: 30px;
+}
+
+.index-timeXScon span.fl, .recommended span.fl {
+    font-size: 16px;
+    color: #cd2525;
+}
+
+.index-timeXScon span.fr, .recommended span.fr {
+    color: #999;
+}
+
+.recommended p.xy-goodCon {
+    margin-bottom: 0;
+}
+
+.recommended li {
+    margin-bottom: 10px;
+}
+
+/*gesture*/
+.gestureBox {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 5;
+    display: none;
+}
+
+#gesturepwd {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -120px;
+    margin-top: -120px;
+}
+
+.gestureInnerBox {
+    position: relative;
+    height: 100%;
+}
+
+.trade-tradeBox {
+    display: none;
+}
+
+.gestureInnerBox .gestureOther {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: 130px;
+}
+
+/* article */
+.article .title {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+    color: #6b6b6b
+}
+
+.article .times {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #959595
+}
+
+.article .times span {
+    margin-left: 20px;
+}
+
+.article .content {
+    color: #959595;
+    font-size: 16px;
+    margin: 30px 15px;
+    line-height: 40px;
+}
+
+.article .content img + p {
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.article .content p {
+    text-indent: 2em;
+}
+
+.article .content .image {
+    text-align: center;
+}
+
+.article .content img {
+    margin-top: 30px;
+    color: #000;
+    text-align: center;
+}
+
+/*news*/
+
+.news-banner, .news-timePos {
+    position: relative;
+}
+
+.news-banner img {
+    width: 100%;
+}
+
+.news-banner > div {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.xzh-vertical-list {
+    padding: 10px;
+}
+
+.xzh-vertical-list dd div {
+    position: relative;
+}
+
+.xzh-vertical-list dd p {
+    font-size: 10px;
+    color: #666;
+}
+
+.news-timePos span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    color: #999;
+}
+
+/* teachingCenter*/
+.teacher-objBox {
+    position: relative;
+}
+
+.teacher-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+.teacher-info .xy-goodTitle {
+    color: #fff;
+    margin: 5px 10px;
+}
+
+.teacher-info .xy-goodCon {
+    color: #d5d5d5;
+    margin: 5px 10px;
+}
+
+.teaching-list dd {
+    margin-bottom: 20px;
+}
+
+/*xy-good*/
+
+/*good list*/
+.xy-modelActive {
+    width: 120px;
+    border-bottom: solid 4px #1b82d2;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 30px auto 20px;
+}
+
+.xy-goodBox ul {
+    padding: 10px 0 10px 10px;
+}
+
+.xy-goodBox img {
+    display: block;
+    width: 100%;
+}
+
+.xy-goodBox li {
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.xy-goodModel {
+    box-sizing: border-box;
+    border: solid 1px #d5d5d5;
+    margin-right: 10px;
+}
+
+.xy-goodModelCon, .xy-goodVideInfo {
+    padding: 10px;
+}
+
+.xy-goodTitle {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.xy-goodCon {
+    margin-bottom: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.xy-goodTips {
+    color: #999;
+    font-size: 12px;
+}
+
+.xy-goodNum {
+    color: #3db368;
+    margin-right: 10px;
+}
+
+.xy-goodUnit {
+    color: #666;
+}
+
+/*good-Con*/
+.xy-goodVideoDes {
+    border-bottom: solid 1px #d5d5d5;
+    padding-bottom: 10px;
+}
+
+.xy-desTitle {
+    color: #1b82d2;
+    font-size: 16px;
+}
+
+.xy-desTips span {
+    color: #ff6600;
+    font-size: 16px;
+}
+
+.xy-desTips p:first-child {
+    margin-right: 10px;
+}
+
+.xy-desTips p:last-child {
+    margin-top: 3px;
+}
+
+.xy-buyBtn {
+    width: 60%;
+    line-height: 40px;
+    background: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 3px;
+}
+
+.xy-buyBtnHave {
+    background: none;
+    color: #333;
+}
+
+.xy-stuTitle {
+    position: relative;
+}
+
+.xy-stuTitle p {
+    margin-top: 4px;
+    font-size: 16px;
+    width: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.xy-stuTitle p.activeGood {
+    color: #1b82d2;
+    border-bottom: solid 4px #1b82d2;
+}
+
+.line {
+    width: 100%;
+    z-index: -1;
+    /*position: absolute;*/
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    /*background: #d5d5d5;*/
+    margin-top: -4px;
+}
+
+.xy-stuBox li {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #d5d5d5;
+    color: #999;
+}
+
+.xy-stuBox li.buyHave div {
+    color: #333;
+}
+
+.xy-stuBox li.buyHave p, .xy-stuBox li.buyHave span {
+    color: #1b82d2;
+}
+
+.xy-stuBox li.buyHave span {
+    font-size: 20px;
+}
+
+.xy-stuConName {
+    padding-left: 10px;
+}
+
+.xy-stuBox li.buyHave p {
+    cursor: pointer;
+}
+
+.xy-goodText {
+    text-indent: 24px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.xy-teaTitle {
+    display: inline-block;
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #333;
+    border-bottom: 4px solid #1b82d2;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.xy-teaBxo .xy-teaImg {
+    display: block;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+.xy-teaName {
+    font-size: 16px;
+    color: #333;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.xy-teaDes {
+    text-indent: 24px;
+    color: #666;
+}
+
+.xy-stuBox .xy-switchGood {
+    display: none;
+}
+
+.xy-stuBox .xy-switchGoodShow {
+    display: block;
+}
+
+/* read word  */
+.good-readerBox {
+    position: relative;
+    display: none;
+}
+
+.good-readerBox span {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.xy-teaInfo {
+    width: 100%;
+}
+
+/*商品信息*/
+.good-Box {
+    padding: 10px;
+}
+
+.good-OtherTip {
+    border-bottom: solid 1px #d5d5d5;
+    padding-bottom: 10px;
+}
+
+.good-desTitle {
+    border-bottom: solid 4px #cd2525;
+    padding-bottom: 10px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.good-desText {
+    margin-top: 10px;
+    text-indent: 2rem;
+    line-height: 24px;
+}
+
+/*bottom*/
+.good-btnBox {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.good-btnBox div {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-flex: 5;
+    font-size: 16px;
+    color: #fff;
+    flex: 5;
+}
+
+.good-btnBox span {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.good-btnBox div:nth-child(1) {
+    background: #ffb415;
+}
+
+.good-btnBox div:nth-child(2) {
+    background: #cd2525;
+}
+
+.good-alertBox {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+}
+
+.good-GroupBox {
+    position: relative;
+    height: 100%;
+    background: #fff;
+}
+
+.good-alertBg {
+    background: rgba(0, 0, 0, .8);
+    height: 100%;
+}
+
+.good-alertCon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 450px;
+    background: #fff;
+}
+
+.good-GroupInner {
+    height: 100%;
+    position: relative;
+}
+
+.good-GroupBot {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #cd2525;
+    font-size: 16px;
+}
+
+.good-GroupGB {
+    border-bottom: solid 1px #d5d5d5;
+    padding-bottom: 10px;
+}
+
+.good-GroupGB img {
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    padding: 5px;
+    border: solid 1px #d5d5d5;
+    margin-top: -20px;
+    background: #fff;
+}
+
+.good-GroupTop {
+    padding: 10px;
+}
+
+.good-GroupGood {
+    width: 100%;
+    margin-left: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.good-GroupGood span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #cd2525;
+}
+
+.good-GroupGood .xy-goodCon {
+    margin-bottom: 0;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.good-GroupCen {
+    padding: 10px 10px 70px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.good-GroupCen dt {
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+.good-GroupCen dd {
+    border-bottom: solid 1px #d5d5d5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.good-GroupCen dl span {
+    padding: 3px 5px;
+    background: #f0f0f0;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.good-GroupCen dl span.good-typeAct {
+    background: #cd2525;
+    color: #fff;
+}
+
+.good-GroupCen .overHide {
+    border-bottom: solid 1px #d5d5d5;
+    padding-bottom: 10px;
+}
+
+.good-alertBox, .good-btnBox div {
+    cursor: pointer;
+}
+
+/*xy-userCenter*/
+/*user center*/
+.xy-userInfo {
+    height: 240px;
+    background: #3db368;
+    color: #fff;
+    box-sizing: border-box;
+    padding-top: 30px;
+
+}
+
+.xy-userInfo .xy-userImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #fff;
+    margin: 0 auto;
+
+}
+
+.xy-userInfo p {
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    border: solid 1px #fff;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 30px;
+}
+
+.xy-userTel {
+    font-size: 16px;
+    text-align: center;
+}
+
+.xy-userTel small {
+    font-size: 20px;
+}
+
+.xy-userMoney {
+    border-bottom: solid 1px #d5d5d5;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.xy-userBtn span {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.xy-userBtn span:nth-child(1) {
+    border: solid 1px #ffb415;
+    margin-right: 10px;
+    color: #ffb415;
+}
+
+.xy-userBtn span:nth-child(2) {
+    border: solid 1px #53a0e3;
+    color: #53a0e3;
+}
+
+.xy-userCon {
+    padding: 10px;
+}
+
+.xy-userCon li {
+    margin-bottom: 10px;
+    border-bottom: solid 1px #d5d5d5;
+    padding-bottom: 10px;
+}
+
+.xy-userCon .flex {
+    justify-content: space-between;
+}
+
+.xy-gameBox {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.xy-userGame {
+    font-size: 14px;
+    border-bottom: solid 1px #008fe0;
+    color: #008fe0;
+    padding-bottom: 10px;
+}
+
+.xy-userMoneyBox {
+    font-size: 14px;
+}
+
+.xy-userMoney {
+    padding: 0 10px 10px;
+}
+
+.xy-userMoneyBox span {
+    font-size: 18px;
+    color: #f15a4a;
+    margin-right: 5px;
+}
+
+.xy-goodTitle {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.xy-goodCon {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.xy-userList span {
+    margin-right: 10px;
+}
+
+.xy-userCon li:nth-child(1) .xy-userList span,
+.xy-userCon li:nth-child(3) .xy-userList span,
+.xy-userCon li:nth-child(4) .xy-userList span {
+    color: #008fe0;
+}
+
+.xy-userCon li:nth-child(2) .xy-userList span {
+    color: #29ab91;
+}
+
+.xy-userCon li:nth-child(5) .xy-userList span {
+    color: #f15a4a;
+}
+
+.xy-userCon li:nth-child(6) .xy-userList span {
+    color: #ffb415;
+}
+
+.xy-userCon li:nth-child(7) .xy-userList span {
+    color: #d5d5d5;
+}
+
+.yx-gameBox {
+    display: none;
+}
+
+.loginOut {
+    margin: 30px auto;
+    width: 60%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    color: #ef6062;
+}
+
+.xy-userCon ul li, .loginOut, .xy-userBtn span {
+    cursor: pointer;
+}
+
+span.iconfont {
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+
+}
+
+.xy-gameXZ {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.xy-userImg {
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+    color: #d5d5d5;
+}
+
+.xy-userImg input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.xy-userImg span {
+    font-size: 50px;
+}
+
+/* userForm */
+/*user from*/
+.xy-userFrom ul {
+    padding: 10px;
+}
+
+.xy-userFrom span, .xy-nextStep, .xy-pwdMag p, .xy-addressAdd {
+    cursor: pointer;
+}
+
+/*list*/
+.xy-formInfo {
+    margin-bottom: 20px;
+}
+
+.xy-userFrom li {
+    border-bottom: solid 1px #d5d5d5;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.xy-iconBox {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: solid 1px #d5d5d5;
+    text-align: center;
+    line-height: 40px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.xy-iconBox span {
+    font-size: 24px;
+}
+
+.xy-formCon {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.xy-formTime, .xy-orderPrice, .xy-userFormTip, .xy-getCode span {
+    text-align: right;
+}
+
+.xy-formTitle, .xy-orderNum, .xy-userFormTitle, .xy-getCode input {
+    -webkit-flex: 6;
+    flex: 6;
+}
+
+.xy-formTime, .xy-orderPrice, .xy-userFormTip, .xy-getCode span {
+    -webkit-flex: 4;
+    flex: 4;
+}
+
+.xy-orderNum {
+    text-align: left;
+}
+
+/*form input*/
+.xy-realTitle {
+    width: 120px;
+}
+
+.xy-realInput {
+    width: 100%;
+}
+
+.xy-realInput input, .xy-realInput select, .xy-realInput textarea {
+    width: 100%;
+}
+
+textarea {
+    border-radius: 3px;
+    border: solid 1px #d5d5d5;
+    margin: 20px auto;
+    resize: none;
+    padding: 5px;
+}
+
+.xy-userFrom .xy-formInput li {
+    margin-bottom: 10px;
+}
+
+.xy-realNameBox {
+    width: 80%;
+    background: #f0f0f0;
+    min-height: 200px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 3px;
+    position: relative;
+}
+
+.xy-realNameTips {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+.xy-realNameTips p {
+    text-align: center;
+    color: #999;
+}
+
+.xy-realNameTips p:first-child {
+    width: 200px;
+    height: 120px;
+    margin: 20px auto;
+    color: #d5d5d5;
+    line-height: 120px;
+    font-size: 100px;
+}
+
+.xy-nextStep {
+    margin: 30px 20px;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    background: #1b82d2;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.xy-bankTips {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+}
+
+.xy-pwdMag {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.xy-pwdMag p {
+    border-bottom: solid 4px #d5d5d5;
+}
+
+.xy-pwdMag p.activePwd {
+    border-bottom: solid 4px #1b82d2;
+}
+
+.xy-bankNum {
+    justify-content: space-between;
+}
+
+#xy-realName .xy-orderPrice, #xy-addressList .xy-orderPrice {
+    color: red;
+}
+
+.icon-xiangji {
+    color: #1b82d2;
+}
+
+.xy-realNameBox input[type='file'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.xy-realNameBox img {
+    display: none;
+}
+
+.xy-realNameBox img.cardImg {
+    display: block;
+    width: 100%;
+}
+
+.xy-addressAdd {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.xy-addressAdd span {
+    margin-right: 10px;
+}
+
+#xy-addressList ul li:last-child, .xy-addBank li:last-child {
+    text-align: center;
+    border-bottom: none;
+}
+
+.icon-wangjimima-copy {
+    color: #008fe0;
+}
+
+/*share page*/
+#shareCode img {
+    margin: 50px auto;
+    max-width: 200px;
+}
+
+.xy-shareUrlBox {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.xy-shareUrlBox p:first-child {
+    color: red;
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.xy-shareUrl p {
+    color: #999;
+    line-height: 20px;
+}
+
+.xy-shareUrlBox p:last-child {
+    text-align: left;
+    word-wrap: break-word;
+    word-break: keep-all;
+    overflow: hidden;
+}
+
+.xy-shareBox {
+    width: 80%;
+    margin: 20px auto 50px;
+    justify-content: space-around;
+    background: #fff;
+}
+
+.xy-shareBox {
+    border: solid 1px #d5d5d5;
+    border-radius: 50px;
+    box-shadow: 0 0 2px 1px #d5d5d5;
+}
+
+.xy-shareBox li {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+.xy-shareBox span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.xy-shareBox li:nth-child(1) span {
+    color: #ffba25;
+}
+
+.xy-shareBox li:nth-child(2) span {
+    color: #da251c;
+}
+
+.xy-shareBox li:nth-child(3) span {
+    color: #3199c0;
+}
+
+.xy-shareBox li:nth-child(4) span {
+    color: #4a86f0;
+}
+
+.xy-shareBox li:nth-child(5) span {
+    color: #62b900;
+}
+
+.xy-shareBox li:nth-child(6) span {
+    color: #8dc71b;
+}
+
+/* SMRZ */
+.SMRZ-bankCard {
+    position: relative;
+}
+
+#bankCard {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*cart*/
+
+.cart-listBox, .card-ConBox {
+    width: 100%;
+}
+
+.card-imgBox, .card-imgBox img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.card-imgBox {
+    margin-right: 10px;
+}
+
+.card-ConBox .xy-goodCon {
+    margin-bottom: 10px;
+}
+
+.card-conTit h1 {
+    -webkit-flex: 5;
+    flex: 5;
+}
+
+.card-conTit span {
+    -webkit-flex: 2;
+    flex: 2;
+    text-align: right;
+}
+
+.card-bottom {
+    padding-left: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #f0f0f0;
+}
+
+.card-botLeft {
+    -webkit-flex: 6;
+    flex: 6;
+}
+
+.card-botRight {
+    -webkit-flex: 4;
+    flex: 4;
+}
+
+.card-botLeft div {
+    -webkit-flex: 5;
+    flex: 5;
+}
+
+.card-botLR {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.card-botRight span {
+    -webkit-flex: 5;
+    color: #fff;
+    flex: 5;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.card-botRight span:nth-child(1) {
+    background: #ff9500;
+}
+
+.card-botRight span:nth-child(2) {
+    background: #cd2525;
+}
+
+.wait-status div {
+    -webkit-flex: 2;
+    flex: 2;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.wait-Active {
+    border-bottom: solid 4px #cd2525;
+    color: #cd2525;
+    font-weight: bolder;
+}
+
+.jf-topType div {
+    border-bottom: solid 1px #d5d5d5;
+
+}
+
+/*.jf-topType div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:solid 1px #d5d5d5;
+    border-right:solid 1px #d5d5d5;
+}*/
+/*转让*/
+.send-price {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.verifyImg {
+    width: 120px;
+    height: 40px;
+    border: solid 1px #d5d5d5;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+}
+
+li.send-tips {
+    text-align: center;
+    color: #999;
+    border-bottom: 0;
+}
+
+.pro-haveMon {
+    padding: 10px;
+    border-bottom: solid 1px #d5d5d5;
+}
+
+div.jf-pro-btn {
+    text-align: right;
+}
+
+div.jf-pro-btn {
+    color: orangered;
+}
+
+.jf-topType div.leftAlign {
+    text-align: left;
+}
+
+.leftAlign span {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 320px) {
+    .cart-listBox .card-imgBox, .cart-listBox .card-imgBox img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .xy-goodTitle {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .xy-goodCon {
+        margin-bottom: 10px;
+        color: #666;
+        font-size: 12px;
+    }
+
+}
+/*index_tan*/
+.highcharts-background{fill: rgb(255, 255, 255) }
+.highcharts-button rect{fill: rgb(255, 255, 255);}
+text{ font-size:12px!important;fill: rgb(0, 0, 0) !important}
+.l-btn,.l-btn:hover{ background:#fff!important; font-size:16px; color:#000!important;}
+.l-btn-plain-selected,.l-btn-plain-selected:hover{ color:#fff!important; background:#ff5c14!important; border-bottom:2px solid #ca5600;}
+.l-btn-text{ padding: 0 8px;}
+.highcharts-button{fill: rgb(255, 255, 255)!important;
+}
+#houseSelector{ height:30px !important; }
+#loadingDiv{ top:50%!important;}
+.chart_k{ position: relative;}
+@media screen and (max-width:768px){
+    .l-btn-text{ padding: 0 1px;}
+    #houseSelector{ height:22px !important; }
+
+}
+@media screen and (min-width:768px){
+    div#chartLegend {border-radius:5px; position:absolute;
+        right: -160px;
+        top:50%; margin-top:-110px;
+        width: 80px!important; background:#fff; height:220px; padding-top:20px;  }
+    div#chartLegend span{ color:#000;   height:16px!important; margin-top:10px!important;}
+    div#chartLegend span:nth-child(odd){ clear:left; display:block!important; overflow:hidden; width:16px!important; float:left!important; margin-left:16px;}
+    div#chartLegend span:nth-child(even){ margin-left:5px; display:block!important;width:40px!important;float:left!important;}
+}
+.highcharts-legend rect {
+    x: 0;
+    y: 0;
+    width: 529;
+    height: 32;
+    fill: rgb(255, 255, 255);
+    visibility: visible;
+}
+div.allbox{
+    width:100%;
+    height:100%;
+    background: url("/static/mobile/img/login_bg.png") no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

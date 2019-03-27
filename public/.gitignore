@@ -1,0 +1,4 @@
+/.user.ini
+/robots.txt
+/test
+!.gitignore

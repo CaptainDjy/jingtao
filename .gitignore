@@ -1,0 +1,9 @@
+/.user.ini
+/robots.txt
+/test
+!.gitignore
+.idea
+*.log
+runtime/
+*runtime
+cache/

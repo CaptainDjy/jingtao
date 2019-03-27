@@ -1,0 +1,42 @@
+{
+    "name": "dh/yii2-clockpicker",
+    "description": "Yii2 wrapper for clockpicker (clock-like time picker) plugin 修改前端资源源",
+    "keywords": [
+        "yii",
+        "yii2",
+        "clockpicker"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/zhang988925/yii2-clockpicker.git",
+    "authors": [
+        {
+            "name": "zl'",
+            "email": "zh9025@qq.com",
+            "homepage": "https://github.com/zhang988925",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "*",
+        "bower-asset/clockpicker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dh\\clockpicker\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        },
+        "asset-repositories": {
+            "bower-asset/clockpicker": {
+                "type": "bower-vcs",
+                "url": "https://github.com/weareoutman/clockpicker.git"
+            }
+        }
+    }
+}

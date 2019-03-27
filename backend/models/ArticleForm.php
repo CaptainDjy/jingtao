@@ -1,0 +1,19 @@
+<?php
+
+namespace backend\models;
+
+use yii\base\Model;
+
+class ArticleForm extends Model
+{
+    public $title;
+    public $content;
+
+    public function rules()
+    {
+        return [
+            [['title', 'content'], 'required'],
+            //['email', 'email'],
+        ];
+    }
+}
